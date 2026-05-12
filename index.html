@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DeForest AA Group</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .logo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .zoom-link {
+      display: block;
+      padding: 15px;
+      background: #3498db;
+      color: white;
+      text-align: center;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    .zoom-link:hover {
+      background: #2980b9;
+    }
+    .meeting {
+      border-bottom: 1px solid #ddd;
+      padding: 15px 0;
+    }
+    .meeting:last-child {
+      border-bottom: none;
+    }
+    .date {
+      font-weight: bold;
+      color: #2c3e50;
+    }
+    .title {
+      margin-top: 5px;
+    }
+    .info {
+      margin-bottom: 20px;
+      padding: 10px;
+      background: #ecf0f1;
+      border-radius: 8px;
+    }
+    .signup {
+      margin-top: 30px;
+      padding: 15px;
+      background: #f9f9f9;
+      border-radius: 10px;
+      border: 1px solid #ddd;
+    }
+    .signup input[type="email"] {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+    .signup button {
+      padding: 10px 15px;
+      background: #27ae60;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    .signup button:hover {
+      background: #219150;
+    }
+    .byline {
+      font-weight: bold;
+      font-size: 18px;
+      margin-top: 5px;
+    }
+    .section {
+      margin-top: 25px;
+      padding: 15px;
+      background: #fafafa;
+      border-radius: 10px;
+      border: 1px solid #eee;
+    }
+    svg {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <svg width="80" height="80" viewBox="0 0 100 100">
+      <circle cx="50" cy="50" r="45" stroke="white" stroke-width="4" fill="none" />
+      <polygon points="50,15 15,85 85,85" stroke="white" stroke-width="4" fill="none" />
+      <text x="50" y="62" text-anchor="middle" font-size="20" fill="white" font-weight="bold">AA</text>
+    </svg>
+    <h1>DeForest AA Group</h1>
+    <div class="byline">By Any Means</div>
+    <p>Sunday Meetings at 7:00 PM CST</p>
+  </div>
+</header>
+
+<div class="container">
+
+  <div class="info">
+    All meetings are held weekly on Sundays at 7:00 PM Central Standard Time.
+  </div>
+
+  <a class="zoom-link" href="https://us06web.zoom.us/j/87595677688" target="_blank">
+    Join NEW Zoom Meeting
+  </a>
+
+  <h2>Daily Reflection</h2>
+  <div class="section">
+    <p><em>“We are not cured of alcoholism. What we really have is a daily reprieve contingent on the maintenance of our spiritual condition.”</em></p>
+    <p>Take a moment today to pause, reflect, and stay connected to your recovery and support network.</p>
+  </div>
+
+  <h2>Upcoming Meetings</h2>
+
+  <div class="meeting">
+    <div class="date">May 17th</div>
+    <div class="title">Speaker Meeting - Jill T. (Kory Chair)</div>
+  </div>
+
+  <div class="meeting">
+    <div class="date">May 24th</div>
+    <div class="title">No Meeting</div>
+  </div>
+
+  <div class="meeting">
+    <div class="date">May 31st</div>
+    <div class="title">Speaker Meeting - (TBD) (Jeremy Chair)</div>
+  </div>
+
+  <h2>Local AA Resources</h2>
+  <div class="section">
+    <p>Visit your local Madison AA resources for support, meetings, and information:</p>
+    <p>
+      urlMAACO Madison AAhttps://aamadisonwi.org/
+    </p>
+  </div>
+
+  <div class="signup">
+    <h3>Join the Contact List</h3>
+    <p>Enter your email to receive meeting updates.</p>
+    <form>
+      <input type="email" placeholder="Your email address" required />
+      <button type="submit">Subscribe</button>
+    </form>
+  </div>
+
+</div>
+
+</body>
+</html>
